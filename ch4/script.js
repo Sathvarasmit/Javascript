@@ -40,7 +40,9 @@ function getVal(val) {
     else return "A"
     }
 
-console.log(getVal(58));
+console.log(getVal(30));
+
+// IT MEANSE WHATEVER COMES FIRST IT WILL RETURN ALSO FIRST LIKE AT HERE 30 IS ALSO < 50 AND 75 
 
 
 // practice questions

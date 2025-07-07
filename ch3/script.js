@@ -76,7 +76,7 @@ f%=2
 
 // Unary operator 
 // this operators are only applicable on single values 
-// +"10" it will be a 10 now it's trick | If you use string and it can be conver in number just right + so itwill convert to number but if you use this "smit" and write + before like this +"smit" it will be now NaN
+// +"10" it will be a 10 now it's trick | If you use string and it can be conver in number just write + so itwill convert to number but if you use this "smit" and write + before like this +"smit" it will be now NaN
 
 // if you have a number and you want to make nagetive to it just write -
 
@@ -121,6 +121,7 @@ f%=2
 // let t = []
 // EX :t instanceof Array means t is connected from array it will give true
 // cause if we check this using typeof it will say object which is not 
+// in this you have to write capital like as given in language as like that
 
 // instanceof will work on reference values and typeof will work on premitive values.
 

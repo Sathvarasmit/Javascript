@@ -2,7 +2,7 @@
 // There are two types of data types
 // 1.premitive data type & 2.reference data type
 
-// 1.premitive data type : avi badhi values ke jene copy karie to teni real copy matchMedia
+// 1.premitive data type : avi badhi values ke jene copy karie to teni real copy made
 // String, Number, bolean, null, undefined, Symbol, BigInt
 
 // 2.reference data type : aane copy karva par real copy nathi madti pan reference madse parent nu
@@ -13,6 +13,9 @@ let a = 12;
 let b = a;
 
 a = a+2;
+
+// answer a 14
+// answer b 12
 
 // this is happen cause it's premitive value 
 // if there is a refrence value it won't work like this it also update the b 
@@ -26,7 +29,7 @@ d.pop()
 // there are three types using that we can make string 
 // 1."" Double quotes
 // 2.'' Single Qoutes
-// 3.`` Backticks
+// 3.`` Backticks 
 
 // Null no matalab ke aapde hathe kari ne ane null value aapie
 // agar aapde ak variable banaie ane ene value na aapie e jate j value lai le ena rite so it will be undefined
@@ -70,7 +73,6 @@ d.pop()
 
 // ---
 
-// Let me know if you want to run this step-by-step in your browser console!
 
 
 // BIGINT
@@ -80,7 +82,7 @@ E = E + 9n
 
 //this is 9007199254740991 the max value we can write in integer if we want to write more than this and also want it's true so we have to use big int we have to do just put n behind that nubmer that's it.
 
-// Dynamic Typing: js ma static typing nathi hoti ane ahiya dynamic typing hoy che matlap ke aapde data ne change kari sakie che kemke aa dynamic typing che na ki static
+// Dynamic Typing: js ma static typing nathi hoti ane ahiya dynamic typing hoy che matlab ke aapde data ne change kari sakie che kemke aa dynamic typing che na ki static
 
 let u = 12;
 u = true;
@@ -88,8 +90,8 @@ u = "smit";
 u = []
 u = null;
 
-// it means it can be anything but in other languages it's not working like that like i will try to give one example is int i = 85; in this we clearly declared int but in js we assume let var const so that's why we can dynamic typing.
-// that's they made typescript at there we can do code in static 
+// it means it can be anything but in other languages it's not working like that like i will try to give one example is int i = 85; in this we clearly declared int but in js we assume let var const so that's why we called this dynamic typing.
+// that's why they made typescript at there we can do code in static 
 
 // type of quirks (typeof null = object , typeofNan = number)
 // Quirk means weird unexpected answers OK
@@ -103,12 +105,12 @@ u = null;
 // EX: "5" + 1
 // the answer is '51' 
 
-// but in - there is only option you can only minus
+// but at - here is only one option you can only minus
 // Ex : "5" - 1
 
 // Truthy and Falsy Values
 
-//0 false "" null undefined NaN document.all this all are falsy values 
+//0, false, "", null, undefined, NaN, document.all this all are falsy values 
 // And the rest all is true
 // you can check falsy values in console using !! this . EX !!0 it gives false
 

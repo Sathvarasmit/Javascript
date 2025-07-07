@@ -49,7 +49,7 @@
 
 // var a = 25;
 
-//at you can see declaration will be var a = undefined first part who goes to top and rest who stay at down is a = 25; you can see here below how it will
+//as you can see declaration will be var a = undefined first part who goes to top and rest who stay at down is a = 25; you can see here below how it will
 
 // var a = undefined
 
@@ -104,9 +104,9 @@ if(true){
 console.log(c)
 console.log(e)
 
-// script.js:83 Uncaught ReferenceError: e is not defined
+// script.js:105 Uncaught ReferenceError: e is not defined
 
-// why this is happen cause var is block scoped but let is function scoped so cause there is curly braces let is not work
+// why this is happen cause var is function scoped but let is block scoped so cause there is curly braces let is not work
 
 {
     let m = 90;
